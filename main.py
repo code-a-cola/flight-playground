@@ -3,6 +3,7 @@
 from Modules.Classes.Flight import Flight
 from Modules.Classes.Boing747 import Boing747
 from Modules.Classes.AirbusA319 import AirbusA319
+
 from Modules.print_flight_info import print_flight_info
 
 flights = ( Flight("NA06012", Boing747("747-8F")), Flight("NA06012", AirbusA319("G-EUPT")) )

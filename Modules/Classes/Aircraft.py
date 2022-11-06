@@ -3,6 +3,14 @@
 class Aircraft:
 
 
+    def __init__(self, registration):
+        self._registration = registration
+
+
+    def registration(self):
+        return self._registration
+
+
     def num_rows(self):
         rows, row_seats = self.seating_plan()
         return len(rows)

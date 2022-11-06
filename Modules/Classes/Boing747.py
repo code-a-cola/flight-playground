@@ -5,14 +5,6 @@ from Modules.Classes.Aircraft import Aircraft
 class Boing747(Aircraft):
 
 
-    def __init__(self, registration):
-        self._registration = registration
-
-
-    def registration(self):
-        return self._registration
-
-
     def model(self):
         return "Boing 747"
 
